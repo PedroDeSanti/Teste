@@ -1,0 +1,111 @@
+Restore Archived Project report for sonar
+Sun Oct 09 22:08:44 2022
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sun Oct 09 22:08:44 2022 ;
+; Revision Name                   ; sonar                                 ;
+; Top-level Entity Name           ; exp6_desafio                          ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/Pedro/Downloads/exp6_desafio.qar' into the 'C:/Users/Pedro/Downloads/exp6_desafio_restored/' directory
+Info: Generated report 'sonar.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/16.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4730 megabytes
+    Info: Processing ended: Sun Oct 09 22:08:44 2022
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++----------------------------------------------------------------------+
+; Files Restored                                                       ;
++----------------------------------------------------------------------+
+; File Name                                                            ;
++----------------------------------------------------------------------+
+; qar_info.json                                                        ;
+; Arquivos VHDL/componentes_genericos/contador_m.vhd                   ;
+; Arquivos VHDL/componentes_genericos/contadorg_updown_m.vhd           ;
+; Arquivos VHDL/componentes_genericos/deslocador_n.vhd                 ;
+; Arquivos VHDL/componentes_genericos/edge_detector.vhd                ;
+; Arquivos VHDL/componentes_genericos/hex7seg.vhd                      ;
+; Arquivos VHDL/componentes_genericos/mux_4x1_n.vhd                    ;
+; Arquivos VHDL/componentes_genericos/mux_8x1_n.vhd                    ;
+; Arquivos VHDL/componentes_genericos/registrador_n.vhd                ;
+; Arquivos VHDL/exp6_desafio.vhd                                       ;
+; Arquivos VHDL/fluxo_dados/controle_servo/controle_servo.vhd          ;
+; Arquivos VHDL/fluxo_dados/controle_servo/controle_servo_tb.vhd       ;
+; Arquivos VHDL/fluxo_dados/interface_hcsr04/analisa_m.vhd             ;
+; Arquivos VHDL/fluxo_dados/interface_hcsr04/contador_bcd_3digitos.vhd ;
+; Arquivos VHDL/fluxo_dados/interface_hcsr04/contador_cm.vhd           ;
+; Arquivos VHDL/fluxo_dados/interface_hcsr04/contador_cm_uc.vhd        ;
+; Arquivos VHDL/fluxo_dados/interface_hcsr04/gerador_pulso.vhd         ;
+; Arquivos VHDL/fluxo_dados/interface_hcsr04/interface_hcsr04.vhd      ;
+; Arquivos VHDL/fluxo_dados/interface_hcsr04/interface_hcsr04_fd.vhd   ;
+; Arquivos VHDL/fluxo_dados/interface_hcsr04/interface_hcsr04_uc.vhd   ;
+; Arquivos VHDL/fluxo_dados/rom_angulos_8x24.vhd                       ;
+; Arquivos VHDL/fluxo_dados/rx_serial_7E2/rx_serial_7E2.vhd            ;
+; Arquivos VHDL/fluxo_dados/rx_serial_7E2/rx_serial_7E2_fd.vhd         ;
+; Arquivos VHDL/fluxo_dados/rx_serial_7E2/rx_serial_7E2_uc.vhd         ;
+; Arquivos VHDL/fluxo_dados/rx_serial_7E2/testador_paridade.vhd        ;
+; Arquivos VHDL/fluxo_dados/sonar_fd.vhd                               ;
+; Arquivos VHDL/fluxo_dados/tx_serial_7E2/tx_serial_7E2.vhd            ;
+; Arquivos VHDL/fluxo_dados/tx_serial_7E2/tx_serial_7E2_fd.vhd         ;
+; Arquivos VHDL/fluxo_dados/tx_serial_7E2/tx_serial_7E2_uc.vhd         ;
+; Arquivos VHDL/sonar_tb.vhd                                           ;
+; Arquivos VHDL/unidade_controle/sonar_uc.vhd                          ;
+; assignment_defaults.qdf                                              ;
+; sonar.qpf                                                            ;
+; sonar.qsf                                                            ;
+; sonar_assignment_defaults.qdf                                        ;
++----------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+; db/sonar.cmp.rdb   ;
++--------------------+
+
+
